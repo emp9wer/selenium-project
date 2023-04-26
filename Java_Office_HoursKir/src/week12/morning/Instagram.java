@@ -7,6 +7,9 @@ public class Instagram extends App {
         super(name, version);
     }
 
+    public void postPic(){
+        System.out.println("picture posted");
+    }
 
 
 }

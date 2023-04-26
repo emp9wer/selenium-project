@@ -28,6 +28,10 @@ private double version;
     }
 
 
+    public void download(){
+        System.out.println("app is downloaded");
+    }
+
     @Override
     public String toString() {
         return "App{" +
