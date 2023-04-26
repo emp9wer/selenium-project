@@ -1,4 +1,4 @@
-package week12.morning;
+package week12.morning.app;
 
 public class Runner {
     public static void main(String[] args) {
