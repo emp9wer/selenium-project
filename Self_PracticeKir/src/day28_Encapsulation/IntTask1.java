@@ -1,4 +1,4 @@
-package day28_Encapsulation;
+package src.day28_Encapsulation;
 
 public class IntTask1 {
 

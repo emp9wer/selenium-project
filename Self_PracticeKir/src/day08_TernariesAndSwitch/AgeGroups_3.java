@@ -1,4 +1,4 @@
-package day08_TernariesAndSwitch;
+package src.day08_TernariesAndSwitch;
 
 public class AgeGroups_3 {
     public static void main(String[] args) {

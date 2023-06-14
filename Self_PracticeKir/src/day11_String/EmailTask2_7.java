@@ -1,4 +1,4 @@
-package day11_String;
+package src.day11_String;
 
 public class EmailTask2_7 {
     public static void main(String[] args) {

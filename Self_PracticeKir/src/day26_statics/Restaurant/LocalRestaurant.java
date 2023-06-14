@@ -1,4 +1,4 @@
-package day26_statics.Restaurant;
+package src.day26_statics.Restaurant;
 
 import java.time.LocalDate;
 

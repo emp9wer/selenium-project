@@ -1,5 +1,5 @@
 
-package day26_statics;public class Person {
+package src.day26_statics;public class Person {
 
     public String name;
     public int age;

@@ -1,4 +1,4 @@
-package day28_Encapsulation.square;
+package src.day28_Encapsulation.square;
 
 public class TestSquare {
     public static void main(String[] args) {

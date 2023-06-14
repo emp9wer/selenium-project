@@ -1,4 +1,4 @@
-package day31_methodOverriding.statesTask;
+package src.day31_methodOverriding.statesTask;
 
 public class Florida extends States{
     public Florida(String name, String abbreviation, String politicalParty, String governor, String senator, int population, double stateTax) {

@@ -1,4 +1,4 @@
-package day18_MemoryManagement;
+package src.day18_MemoryManagement;
 /*
 1. Write a program that can return the character that has the highest frequency from a string
 	Ex:

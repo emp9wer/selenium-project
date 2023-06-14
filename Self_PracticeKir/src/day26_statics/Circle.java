@@ -1,5 +1,5 @@
 /*
-package day26_statics;
+package src.day26_statics;
 
 import utilities.MathUtil;
 

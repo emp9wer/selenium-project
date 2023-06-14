@@ -1,4 +1,4 @@
-package src.week10.earth;
+package week10.earth;
 
 import java.util.ArrayList;
 

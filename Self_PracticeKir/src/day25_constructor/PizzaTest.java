@@ -1,4 +1,4 @@
-package day25_constructor;
+package src.day25_constructor;
 
 public class PizzaTest {
     public static void main(String[] args) {

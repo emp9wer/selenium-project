@@ -1,4 +1,4 @@
-package day03_variables_practices;
+package src.day03_variables_practices;
 
 public class EmployeeInfo {
     public static void main(String[] args) {

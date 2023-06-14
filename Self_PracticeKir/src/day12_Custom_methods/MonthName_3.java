@@ -1,4 +1,4 @@
-package day12_Custom_methods;
+package src.day12_Custom_methods;
 
 public class MonthName_3 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day14_forLoops;
+package src.day14_forLoops;
 public class RetrieveFromString_5 {
     public static void main(String[] args) {
         String word = "mn@#123Ab!";

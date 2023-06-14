@@ -1,4 +1,4 @@
-package day14_forLoops;
+package src.day14_forLoops;
 
 public class Shape_1 {
     public static void main(String[] args) {

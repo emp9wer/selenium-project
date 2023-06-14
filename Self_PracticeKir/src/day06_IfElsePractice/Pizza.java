@@ -1,4 +1,4 @@
-package day06_IfElsePractice;
+package src.day06_IfElsePractice;
 
 public class Pizza {
     public static void main(String[] args) {

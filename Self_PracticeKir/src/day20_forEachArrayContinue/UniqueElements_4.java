@@ -1,4 +1,4 @@
-package day20_forEachArrayContinue;
+package src.day20_forEachArrayContinue;
 
 public class UniqueElements_4 {
     public static void main(String[] args) {

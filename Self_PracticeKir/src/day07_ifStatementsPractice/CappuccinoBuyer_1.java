@@ -1,4 +1,4 @@
-package day07_ifStatementsPractice;
+package src.day07_ifStatementsPractice;
 
 public class CappuccinoBuyer_1 {
 

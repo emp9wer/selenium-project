@@ -1,4 +1,4 @@
-package day29_Inheritance.employeeTask;
+package src.day29_Inheritance.employeeTask;
 
 public class Test {
     public static void main(String[] args) {

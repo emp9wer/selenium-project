@@ -1,4 +1,4 @@
-package day31_methodOverriding.statesTask;
+package src.day31_methodOverriding.statesTask;
 
 public class StateObjects {
     public static void main(String[] args) {

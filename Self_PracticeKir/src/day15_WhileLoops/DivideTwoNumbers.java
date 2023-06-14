@@ -1,4 +1,4 @@
-package day15_WhileLoops;
+package src.day15_WhileLoops;
 
 public class DivideTwoNumbers {
     public static void main(String[] args) {

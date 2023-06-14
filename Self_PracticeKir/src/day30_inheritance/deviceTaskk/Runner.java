@@ -1,4 +1,4 @@
-package day30_inheritance.deviceTaskk;
+package src.day30_inheritance.deviceTaskk;
 
 public class Runner {
     public static void main(String[] args) {

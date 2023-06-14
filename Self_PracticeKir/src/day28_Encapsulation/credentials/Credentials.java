@@ -1,4 +1,4 @@
-package day28_Encapsulation.credentials;
+package src.day28_Encapsulation.credentials;
 
 public class Credentials {
     private String username;

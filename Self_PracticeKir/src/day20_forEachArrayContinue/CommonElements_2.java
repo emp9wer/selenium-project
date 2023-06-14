@@ -1,4 +1,4 @@
-package day20_forEachArrayContinue;
+package src.day20_forEachArrayContinue;
 
 public class CommonElements_2 {
     public static void main(String[] args) {

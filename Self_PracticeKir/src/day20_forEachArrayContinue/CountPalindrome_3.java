@@ -1,4 +1,4 @@
-package day20_forEachArrayContinue;
+package src.day20_forEachArrayContinue;
 
 public class CountPalindrome_3 {
     public static void main(String[] args) {

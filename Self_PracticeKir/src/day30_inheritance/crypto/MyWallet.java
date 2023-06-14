@@ -1,4 +1,4 @@
-package day30_inheritance.crypto;
+package src.day30_inheritance.crypto;
 
 public class MyWallet {
 

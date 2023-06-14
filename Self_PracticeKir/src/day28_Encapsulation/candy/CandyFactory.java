@@ -1,4 +1,4 @@
-package day28_Encapsulation.candy;
+package src.day28_Encapsulation.candy;
 
 import java.util.ArrayList;
 import java.util.Arrays;

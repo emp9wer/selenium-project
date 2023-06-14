@@ -1,4 +1,4 @@
-package day08_TernariesAndSwitch;
+package src.day08_TernariesAndSwitch;
 
 public class KatyA {
     public static void main(String[] args) {

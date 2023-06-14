@@ -1,4 +1,4 @@
-package day31_methodOverriding.employeeTask;
+package src.day31_methodOverriding.employeeTask;
 
 public class Teacher extends Employee{
     public Teacher(String name, String id, String jobTitle, String companyName, int age, char gender, double salary) {

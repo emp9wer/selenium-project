@@ -1,4 +1,4 @@
-package day11_String;
+package src.day11_String;
 
 import java.util.Scanner;
 

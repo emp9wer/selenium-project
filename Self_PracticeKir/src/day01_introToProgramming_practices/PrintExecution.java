@@ -1,4 +1,4 @@
-package day01_introToProgramming_practices;
+package src.day01_introToProgramming_practices;
 
 public class PrintExecution {
     public static void main(String[] args) {

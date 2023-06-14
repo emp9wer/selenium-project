@@ -1,4 +1,4 @@
-package day27_accessModifiers;
+package src.day27_accessModifiers;
 
 public class Person {
     public String name,language;

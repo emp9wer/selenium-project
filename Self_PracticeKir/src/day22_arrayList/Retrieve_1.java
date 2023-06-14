@@ -1,4 +1,4 @@
-package day22_arrayList;
+package src.day22_arrayList;
 
 public class Retrieve_1 {
     public static void main(String[] args) {

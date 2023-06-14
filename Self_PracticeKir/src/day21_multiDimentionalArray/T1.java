@@ -1,4 +1,4 @@
-package day21_multiDimentionalArray;
+package src.day21_multiDimentionalArray;
 
 public class T1 {
     public static void main(String[] args) {

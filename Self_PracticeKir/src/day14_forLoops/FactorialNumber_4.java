@@ -1,4 +1,4 @@
-package day14_forLoops;
+package src.day14_forLoops;
 
 public class FactorialNumber_4 {
 

@@ -1,4 +1,4 @@
-package day30_inheritance.sport;
+package src.day30_inheritance.sport;
 
 public class AmericanFootball extends Sport{
 

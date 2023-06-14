@@ -1,4 +1,4 @@
-package day12_Custom_methods;
+package src.day12_Custom_methods;
 
 public class HowManyDaysAmonth_5 {
     public static void main(String[] args) {

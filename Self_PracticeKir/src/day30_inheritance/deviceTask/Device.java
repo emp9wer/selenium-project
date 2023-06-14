@@ -1,4 +1,4 @@
-package day30_inheritance.deviceTask;
+package src.day30_inheritance.deviceTask;
 
 public class Device {
     private String brand, model,color;

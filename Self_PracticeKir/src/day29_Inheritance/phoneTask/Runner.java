@@ -1,4 +1,4 @@
-package day29_Inheritance.phoneTask;
+package src.day29_Inheritance.phoneTask;
 
 public class Runner {
     public static void main(String[] args) {

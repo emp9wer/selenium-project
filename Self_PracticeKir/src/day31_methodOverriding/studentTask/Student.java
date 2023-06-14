@@ -1,4 +1,4 @@
-package day31_methodOverriding.studentTask;
+package src.day31_methodOverriding.studentTask;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package day16_LoopsContinueNested;
+package src.day16_LoopsContinueNested;
 
 public class PrintUsingNested_2 {
 

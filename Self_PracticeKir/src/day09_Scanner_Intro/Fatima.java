@@ -1,4 +1,4 @@
-package day09_Scanner_Intro;
+package src.day09_Scanner_Intro;
 import java.util.*;
 public class Fatima {
     public static void main(String[] args) {

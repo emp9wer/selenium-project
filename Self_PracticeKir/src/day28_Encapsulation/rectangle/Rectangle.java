@@ -1,4 +1,4 @@
-package day28_Encapsulation.rectangle;
+package src.day28_Encapsulation.rectangle;
 
 public class Rectangle {
     private double width;

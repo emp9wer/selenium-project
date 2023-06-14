@@ -1,4 +1,4 @@
-package day29_Inheritance.carTask;
+package src.day29_Inheritance.carTask;
 
 public class Car {
     private String make;

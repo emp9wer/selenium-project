@@ -1,4 +1,4 @@
-package day14_forLoops;
+package src.day14_forLoops;
 import java.util.Random;
 public class ReturnPalindromeInterviewTask {
     public static void main(String[] args) {

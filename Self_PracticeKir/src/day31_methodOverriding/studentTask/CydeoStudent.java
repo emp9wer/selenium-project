@@ -1,4 +1,4 @@
-package day31_methodOverriding.studentTask;
+package src.day31_methodOverriding.studentTask;
 
 public class CydeoStudent extends Student{
 

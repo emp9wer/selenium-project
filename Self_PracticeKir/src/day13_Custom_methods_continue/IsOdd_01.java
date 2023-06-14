@@ -1,4 +1,4 @@
-package day13_Custom_methods_continue;
+package src.day13_Custom_methods_continue;
 
 public class IsOdd_01 {
     public static void main(String[] args) {

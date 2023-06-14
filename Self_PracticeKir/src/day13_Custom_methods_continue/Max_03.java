@@ -1,4 +1,4 @@
-package day13_Custom_methods_continue;
+package src.day13_Custom_methods_continue;
 
 public class Max_03 {
     public static void main(String[] args) {

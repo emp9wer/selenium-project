@@ -1,4 +1,4 @@
-package day30_inheritance.crypto;
+package src.day30_inheritance.crypto;
 
 public class XRP extends CryptoToken{
     public XRP(double price, double quantity, double marketCap, double volume, double circulatingSupply, boolean isMineable) {

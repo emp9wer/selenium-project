@@ -1,4 +1,4 @@
-package day25_constructor;
+package src.day25_constructor;
 
 import java.util.ArrayList;
 import java.util.Arrays;

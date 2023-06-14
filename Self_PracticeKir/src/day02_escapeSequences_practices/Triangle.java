@@ -1,4 +1,4 @@
-package day02_escapeSequences_practices;
+package src.day02_escapeSequences_practices;
 
 public class Triangle {
     public static void main(String[] args) {

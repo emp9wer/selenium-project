@@ -1,4 +1,4 @@
-package day18_MemoryManagement;
+package src.day18_MemoryManagement;
 
 public class OfferTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day07_ifStatementsPractice;
+package src.day07_ifStatementsPractice;
 
 public class Grade_4 {
     public static void main(String[] args) {

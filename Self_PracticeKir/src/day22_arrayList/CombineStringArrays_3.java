@@ -1,4 +1,4 @@
-package day22_arrayList;
+package src.day22_arrayList;
 
 import java.util.ArrayList;
 

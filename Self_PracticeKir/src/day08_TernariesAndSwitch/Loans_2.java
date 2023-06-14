@@ -1,4 +1,4 @@
-package day08_TernariesAndSwitch;
+package src.day08_TernariesAndSwitch;
 
 public class Loans_2 {
 

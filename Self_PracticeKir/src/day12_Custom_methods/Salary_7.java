@@ -1,4 +1,4 @@
-package day12_Custom_methods;
+package src.day12_Custom_methods;
 
 public class Salary_7 {
     public static void main(String[] args) {

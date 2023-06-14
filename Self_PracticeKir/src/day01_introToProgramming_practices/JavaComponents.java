@@ -1,4 +1,4 @@
-package day01_introToProgramming_practices;
+package src.day01_introToProgramming_practices;
 public class JavaComponents {
     public static void main(String[] args) {
         System.out.println("Java Development Kit");

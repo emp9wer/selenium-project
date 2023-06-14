@@ -1,4 +1,4 @@
-package day18_MemoryManagement;public class HighestFrequency_01GPT {
+package src.day18_MemoryManagement;public class HighestFrequency_01GPT {
     public static void main(String[] args) {
 
         String str = "aaabbccccddeeee";

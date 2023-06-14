@@ -1,4 +1,4 @@
-package day22_arrayList;
+package src.day22_arrayList;
 
 public class UpperCaseVsLowerCase_2 {
     public static void main(String[] args) {

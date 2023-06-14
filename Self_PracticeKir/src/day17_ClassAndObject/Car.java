@@ -1,4 +1,4 @@
-package day17_ClassAndObject;
+package src.day17_ClassAndObject;
 
 public class Car {
     public String make;

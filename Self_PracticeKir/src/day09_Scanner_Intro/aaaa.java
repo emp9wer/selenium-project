@@ -1,4 +1,4 @@
-package day09_Scanner_Intro;
+package src.day09_Scanner_Intro;
 
 public class aaaa {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day03_variables_practices;
+package src.day03_variables_practices;
 /*
 1. Create a class named Rectangle.java
 2. Declare the following variables:

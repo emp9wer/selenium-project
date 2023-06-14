@@ -1,4 +1,4 @@
-package day29_Inheritance;
+package src.day29_Inheritance;
 
 public class Test {
    static String s = "s";

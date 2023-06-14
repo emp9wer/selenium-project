@@ -1,4 +1,4 @@
-package day30_inheritance.deviceTaskk;
+package src.day30_inheritance.deviceTaskk;
 
 public class Desktop extends Computer{
     public Desktop(String brand, String model, String color, double size, double price, boolean hasBattery, boolean hasPowerButton, int ram, boolean isI7) {

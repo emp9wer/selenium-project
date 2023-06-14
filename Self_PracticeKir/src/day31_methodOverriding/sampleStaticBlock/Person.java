@@ -1,4 +1,4 @@
-package day31_methodOverriding.sampleStaticBlock;
+package src.day31_methodOverriding.sampleStaticBlock;
 
 public class Person {
 

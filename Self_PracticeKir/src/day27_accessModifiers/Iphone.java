@@ -1,4 +1,4 @@
-package day27_accessModifiers;
+package src.day27_accessModifiers;
 
 //Create a class named Iphone
 //            variables:

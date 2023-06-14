@@ -1,4 +1,4 @@
-package day26_statics;
+package src.day26_statics;
 
 public class CydeoStudent {
 //instance variable is variable that belongs to class

@@ -1,4 +1,4 @@
-package day17_ClassAndObject;
+package src.day17_ClassAndObject;
 
 public class RectangleTest {
     public static void main(String[] args) {

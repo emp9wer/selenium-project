@@ -1,4 +1,4 @@
-package day26_statics;
+package src.day26_statics;
 
 public class a {
     public boolean commonEnd(int[] a, int[] b) {

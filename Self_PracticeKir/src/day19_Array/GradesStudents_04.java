@@ -1,4 +1,4 @@
-package day19_Array;
+package src.day19_Array;
 
 public class GradesStudents_04 {
     public static void main(String[] args) {

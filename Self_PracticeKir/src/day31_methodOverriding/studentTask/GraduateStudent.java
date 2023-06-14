@@ -1,4 +1,4 @@
-package day31_methodOverriding.studentTask;
+package src.day31_methodOverriding.studentTask;
 
 public class GraduateStudent extends Student{
     public GraduateStudent(String name, int age, char gender, String studentId, String fieldOfStudy, char grade, String schoolName) {

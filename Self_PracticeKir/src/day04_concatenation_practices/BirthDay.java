@@ -1,4 +1,4 @@
-package day04_concatenation_practices;
+package src.day04_concatenation_practices;
 
 public class BirthDay {
     public static void main(String[] args) {

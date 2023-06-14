@@ -1,4 +1,4 @@
-package day31_methodOverriding.statesTask;
+package src.day31_methodOverriding.statesTask;
 
 public class States {
     private String name, abbreviation, politicalParty, governor, senator;

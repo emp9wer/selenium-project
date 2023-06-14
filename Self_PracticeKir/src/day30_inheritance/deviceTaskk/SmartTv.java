@@ -1,4 +1,4 @@
-package day30_inheritance.deviceTaskk;
+package src.day30_inheritance.deviceTaskk;
 
 public class SmartTv extends TV{
     public SmartTv(String brand, String model, String color, double size, double price, boolean hasBattery, boolean hasPowerButton) {

@@ -1,0 +1,274 @@
+05/07/2023
+
+Week 12
+Day32 - Final Keyword
+
+Week 13
+Day33 - OOP Abstraction
+Day34 - OOP Abstraction Continue
+Day35 - OOP Polymorphism
+Day36 - OOP Polymorphism Continue
+
+All day java today
+__________________________________________________________________
+
+final
+Abstraction
+Abstract Class
+Interface
+Polymorphism
+Reference casting
+__________________________________________________________________
+
+final
+
+	final variable: variable that cannot be reassigned, cannot be changed
+
+		Ex: final int a = 5;
+			a = 10; -> this line will not compile because the variable cannot be changed
+
+		- constants: public static final variables
+			information/data that are fixed and accessible everywhere
+
+			Ex: Math.PI
+				Integer.MAX_VALUE
+
+			- convention for creating constant variables: constant variables are created in all uppercase . underscore for spaces
+
+	final method: method that cannot be overridden -> cannot change the implementation of the method
+
+		sytnax: public final void method(){}
+
+		Q: can you overload final methods
+			yes
+
+	final class: this class cannot be the parent of another class.
+
+		syntax: public final class name {}
+
+		Q: can a final class be a sub class
+			yes
+__________________________________________________________________
+
+Abstraction
+
+	process that hides implementation. We can focus on the main idea of WHAT is function(action, but not worry about HOW its done (implementation)
+
+	abstraction does not work without inheritance
+
+	implementation: the function of the code, how the code achieves the result
+
+	concrete class: first non-abstract class (normal class). This class must implement all abstract that are inherited
+
+in java there is two ways to achieved abstraction:
+	abstract class
+	interface
+
+abstract methods
+
+	a method without any implementation (a method with no code body)
+		ex:
+		public abstract void rotate();
+
+	-> these methods must be overridden in the sub classes as some point to use them
+
+__________________________________________________________________
+
+Abstract Class
+
+	a class that is defined with the abstract keyword
+
+		ex: public abstract class Planet {}
+
+	-> an abstract class is able to define abstract methods
+	-> this class cannot instantiated (cannot create objects from this class)
+
+	everything else about the classes is the same
+
+Q: Can you make non abstracts methods in an abstract class
+	yes, you can make normal instance methods or static methods
+
+Q: Can you have an abstract class without any abstract methods
+	yes, you are allowed to create abstract methods, but it doesn't require you to make any
+
+Difference between normal class & abstract class
+
+	both: instance & static methods, variables, constructors
+
+	abstract class:
+		cannot make objects of the class
+		can make abstract method
+		cannot be final
+
+	normal class:
+		create objects of the class
+		cannot create abstract methods
+		can be final
+__________________________________________________________________
+
+Interface
+
+	interface is NOT a class. An interface is a blueprint for a class
+
+	+ Allows creation of abstract method
+		any method declared is public abstract automatically
+
+	- Cannot be instantiated
+
+	implementing an interface creates an is a relation
+		implements keyword is used to inherit the abstract methods from the interface
+
+	everything uses public access modifier automatically
+
+	variables: any variable declared is public static final automatically
+		-> constant variables are static final
+		-> interface do not have any instance variables
+
+What does an interface have
+	constant variables, abstract methods, static methods, default methods
+
+What does an interface NOT have
+	instance variables, instance methods, constructor, blocks of code
+
+Q: Can we have any non-abstract methods in interface?
+Q: Can we have any methods with implementation/code block in interface?
+	-> these two questions ask about the same concept
+
+	static and default methods allow creation of methods that have implementation
+
+	static: a method with code body and it is accessed by the interface name
+		-> these methods are not inherited
+
+	default: a method with a code body and it is accessed by the object of the class that is implementing the interface
+
+		instance level for the class that implements
+
+		-> this is not the default access modifier. It is a keyword for these methods. Default methods are only created in interface
+
+Inheritance with interface
+
+	interface is not a class, which means it doesn't follow all the same rules
+
+		-> classes can only have one parent, but interface doesn't need follow that
+
+	- a class can implement as many interfaces as needed
+	- an interface can inherit as many interfaces as needed
+
+How to use the interfaces
+
+	class --> class: extends
+	interface --> class: implements
+	interface --> interface: extends
+__________________________________________________________________
+
+Abstract class vs Interface
+
+	both:
+		cannot create objects
+		can create abstract methods
+		can create static methods
+		create an is a relation
+		can be inherited
+
+	abstract class:
+		can have constructors
+		can have instance variables
+		can have instance methods
+		can have blocks of code: static block
+		can use any access modifier
+		can only have one parent
+		static variables that are not final
+
+	interface:
+		public is the access modifier used by default
+		methods you create are abstract by default
+		variables you create are static final (constant)
+		multiple interface can be implemented to a class - or - inherited to another interface
+		static method is not inherited
+		can create default methods
+
+	putting it all together:
+
+		both are useful to achieve abstraction, but interface is the preferred way because of the ability to implement many interfaces. Abstract class works like a normal class for the most part, so it still follows the inheritance rules of only having one parent. Interfaces do not need to follow the rule of multiple inheritance because they are not a class and have their own properties. Methods are abstract by default when created, but there is two options to also create non-abstract methods if needed which are the static and default methods.
+
+__________________________________________________________________
+
+Polymorphism
+
+	objects are able to take different form through their references
+
+What are the possible references of an object
+
+		public interface Driveable{}
+		public class Street implements Driveable{}
+
+	itself: the reference is the same type as the object
+		Street obj = new Street();
+
+	any super class: any direct or indirect super class can be a reference
+		Object obj = new Street();
+
+	any implemented interface
+		Driveable obj = new Street();
+			- this is a Street object, but with a reference of the Driveable interface
+
+	is a relations can help us understand if the object can have that reference
+
+The reference needs to have access to the field
+but then then execution happens on the object
+
+Benefit of polymorphism
+
+	To limit what you have access to, so you interact with the most important components
+
+	the other references(especially the interface reference), allow us to be more flexible for data structures, or methods
+
+	polymorphic data structures: store different object types together if they share an inheritance relationship
+
+	with methods: the parameter and returns can be super references or interface references which allow the methods to be more flexible
+
+Words from a previous student: "Like a woman at the same time is a mother, a wife, an employee. So the same person possesses different behavior in different situations" - Milana B27
+
+instanceOf
+
+	keyword that can find the type of the object
+
+		real use case example:
+			reading from excel
+			values are given back as Object
+
+			if(cell instanceOf String){
+
+			} else if(cell instanceOf Integer){
+				// parse
+			}
+
+Reference casting
+
+    able to cast/change the reference of the object to a different reference type
+
+    upcasting: from a sub class to a super class
+        automatically/implicitly
+
+    downcasting: from a super class to a sub class
+        manually/explicitly
+
+WebDriver driver = new ChromeDriver();
+
+scenario: fail the test, so we want to take a screenshot
+
+    driver -> this is the WebDriver interface, but WebDriver interface does not know the screenshot method
+
+    ((TakesScreenShot)driver).takeScreenShot() --> now the reference was cast to the TakesScreenShot interface, which has access to the takeScreenShot method. Now we can execute the method
+
+Static & Dynamic Polymorphism
+
+static polymorphism / static binding / compile time binding
+    example of this: method overloading
+
+dynamic polymorphism / dynamic binding / run time binding
+    example of this: method overriding
+
+    calling a method and executing are different and they are not linked.
+    You can call a method anywhere
+    execution happens during runtime

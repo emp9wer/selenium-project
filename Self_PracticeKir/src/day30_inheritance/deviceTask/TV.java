@@ -1,4 +1,4 @@
-package day30_inheritance.deviceTask;
+package src.day30_inheritance.deviceTask;
 
 public class TV extends Device{
     public TV(String brand, String model, String color, double size, double price, boolean hasBattery, boolean hasPowerButton) {
