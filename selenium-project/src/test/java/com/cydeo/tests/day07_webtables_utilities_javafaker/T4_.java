@@ -20,7 +20,7 @@ public class T4_ {
     @BeforeMethod
     public void setUp(){
         //1. Create new test and make set ups
-        driver = WebDriverFactory.getDriver("chrome");
+        driver = WebDriverFactory.getDriver("firefox");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 

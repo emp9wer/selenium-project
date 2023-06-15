@@ -64,6 +64,7 @@ public class T5_WindowsPractice {
     @AfterMethod
     public void tearDown(){
         driver.quit(); // closes all tabs
+
     }
 
 
